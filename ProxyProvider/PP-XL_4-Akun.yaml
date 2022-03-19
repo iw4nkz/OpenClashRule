@@ -1,0 +1,60 @@
+proxies:
+- name: TJ-Line
+  server: cdntest40.line-scdn.net
+  port: 443
+  type: trojan
+  password: c7eb1120-978a-11ec-b533-217f943883dc
+  network: ws
+  sni: vpn6.tjvpn.org
+  skip-cert-verify: true
+  udp: true
+  ws-opts:
+    path: /fastssh
+  headers:
+    Host: vpn6.tjvpn.org
+  #interface-name: eth2
+- name: TJ-Grab
+  server: zendesk4.grabtaxi.com
+  port: 443
+  type: trojan
+  password: c7eb1120-978a-11ec-b533-217f943883dc
+  network: ws
+  sni: vpn6.tjvpn.org
+  skip-cert-verify: true
+  udp: true
+  ws-opts:
+    path: /fastssh
+  headers:
+    Host: vpn6.tjvpn.org
+  #interface-name: eth2
+  
+#############################################
+proxies:
+- name: TJ2-Line
+  server: cdntest40.line-scdn.net
+  port: 443
+  type: trojan
+  password: 3b087550-98c6-11ec-b239-217f943883dc
+  network: ws
+  sni: vpn12.tjvpn.org
+  skip-cert-verify: true
+  udp: true
+  ws-opts:
+    path: /fastssh
+  headers:
+    Host: vpn12.tjvpn.org
+  #interface-name: eth2
+- name: TJ2-Grab
+  server: zendesk4.grabtaxi.com
+  port: 443
+  type: trojan
+  password: 3b087550-98c6-11ec-b239-217f943883dc
+  network: ws
+  sni: vpn12.tjvpn.org
+  skip-cert-verify: true
+  udp: true
+  ws-opts:
+    path: /fastssh
+  headers:
+    Host: vpn12.tjvpn.org
+  #interface-name: eth2
