@@ -1,0 +1,78 @@
+---
+proxies:
+#========= Trojan =========
+- name: TRojan
+  type: trojan
+  server: host/ip
+  port: 443
+  password: password
+  udp: true
+  sni: bug.com
+  skip-cert-verify: true
+#========= Trojan ws =========
+- name: TRojan-ws
+  server: host/ip
+  port: 443
+  type: trojan
+  password: password
+  network: ws
+  sni: bug.com
+  skip-cert-verify: true
+  udp: true
+  ws-opts:
+    path: /path
+  headers:
+    Host: bug.com
+#========= Trojan grpc =========    
+- name: TRojan-grpc
+  server: host/ip
+  port: 443
+  type: trojan
+  password: password
+  network: grpc
+  sni: bug.com
+  skip-cert-verify: true
+  udp: true
+  grpc-opts:
+    grpc-service-name: trojan-grpc
+#========= Shadowsocks =========    
+- name: Shadowsocks
+  type: ss
+  server: host/ip
+  port: 1443
+  cipher: chacha20-ietf-poly1305
+  password: password
+  udp: true
+  plugin: obfs
+  plugin-opts:
+    mode: tls
+    host: bug.com
+#========= Vmess ws =========
+- name: VM1
+  type: vmess
+  server: host/ip
+  port: 443
+  uuid: d12d867a-9c3c-46ed-977d-37d2713dddbb
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: bug.com
+  network: ws
+  ws-opts:
+    path: /path
+    headers:
+      Host: bug.com
+#========= Shadowsocks R =========
+- name: ShadowsocksR
+  type: ssr
+  server: host/ip
+  port: 8449
+  cipher: aes-256-cfb
+  password: password
+  obfs: tls1.2_ticket_auth
+  protocol: auth_sha1_v4
+  obfs-param: obfs=tls;obfs-host=bug.com
+  udp: true    
+
