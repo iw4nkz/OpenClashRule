@@ -1,0 +1,42 @@
+payload:
+#RuleAPP-vidio.com
+  - DOMAIN,vidio.com
+  - DOMAIN-SUFFIX,vidio.com
+  - DOMAIN-SUFFIX,api.vidio.com
+  - DOMAIN-SUFFIX,plenty.vidio.com
+  - DOMAIN-SUFFIX,www.vidio.com
+  - DOMAIN-SUFFIX,thumbor.prod.vidiocdn.com
+  - DOMAIN-SUFFIX,quiz.vidio.com
+  - DOMAIN-SUFFIX,static-quiz.prod.vidiocdn.com
+  - DOMAIN-SUFFIX,token-media-vidio-com.akamaized.net
+  - DOMAIN-SUFFIX,api-ns.vidio.com
+  - DOMAIN-SUFFIX,hermes.vidio.com
+  - DOMAIN-SUFFIX,static-playback.prod.vidiocdn.com
+  - DOMAIN-SUFFIX,api-ns.vidio.com
+  - DOMAIN-SUFFIX,production-premium-vidio-bein1.akamaized.net
+  - DOMAIN-SUFFIX,live.vidio.com
+  - DOMAIN-SUFFIX,geo-id-media-vidio-com.akamaized.net
+  - DOMAIN-SUFFIX,etslive-2-vidio-com.akamaized.net
+  - DOMAIN-SUFFIX,media-vidio-com.akamaized.net
+  - DOMAIN-SUFFIX,blogger.com
+#Yahoo
+  - DOMAIN,yahoo.com
+  - DOMAIN-KEYWORD,yahoo
+  - DOMAIN-SUFFIX,yahoo.com
+  - DOMAIN-SUFFIX,search.yahoo.com
+  - DOMAIN-SUFFIX,guce.yahoo.com
+  - DOMAIN-SUFFIX,mail.yahoo.com
+  - DOMAIN-SUFFIX,login.yahoo.com
+  - DOMAIN-SUFFIX,csp.yahoo.com
+  - DOMAIN-SUFFIX,12.ras.yahoo.com
+  - DOMAIN-SUFFIX,id.yahoo.com
+  - DOMAIN-SUFFIX,id.search.yahoo.com
+  - DOMAIN-SUFFIX,fc.yahoo.com
+  - DOMAIN-SUFFIX,login.yahoo.net
+  - DOMAIN-SUFFIX,pr-bh.ybp.yahoo.com
+  - DOMAIN-SUFFIX,13.ras.yahoo.com
+  - DOMAIN-SUFFIX,pr-bh.ybp.yahoo.com
+  - DOMAIN-SUFFIX,jac.yahoosandbox.com
+  - DOMAIN-SUFFIX,edge-mcdn.secure.yahoo.com
+  - DOMAIN-SUFFIX,ap-southeast-1-web-oao.ssp.yahoo.com
+  - DOMAIN-SUFFIX,s.yimg.com
